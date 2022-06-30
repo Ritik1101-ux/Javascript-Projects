@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    background-image: url("./snow.jpg");
+    background-size:cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem;
+    margin-top: -10rem;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-size: 6rem;
+    margin: 0 2rem;
+    line-height: 1;
+}
+.countdown-el{
+text-align: center;
+}
+.countdown-el span{
+    font-size:1.5rem;
+}
