@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <h1>Quiz!</h1>
+    <div class="container" id="box">
+         <div class="question" id="ques">Question: JSON stands for ________________</div>
+         <div class="answers" id="answer">
+            <div id="a" class="sameHeight"  data-value="a" onclick="check('a')"> (a)  Java Standard Output Network</div>
+            <div id="b" class="sameHeight"  data-value="b"  onclick="check('b')"> (b)  JavaScript Object Notation</div>
+            <div id="c" class="sameHeight"  data-value="c"  onclick="check('c')"> (c)  JavaScript Output Name</div>
+            <div id="d" class="sameHeight"  data-value="d"  onclick="check('d')"> (d)  Java Source Open Network</div>
+         </div>
+    </div>
+    <div class="button">
+        <button id="btnBack" onclick="goBack()" >Back</button>
+        <button id="btnNext" onclick="nextQues()">Next</button>
+    </div>
+  
+</body>
+<script src="script.js"></script>
+</html>
